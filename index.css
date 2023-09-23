@@ -1,0 +1,121 @@
+#nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#main-image{
+  width: 100%;
+  height: auto;
+}
+
+#main{
+    background-color: whitesmoke !important;
+    padding: 0% !important;
+    margin-top: 2%;
+}
+#main-content{
+align-content:  space-between !important;
+}
+#whatsnew-list{
+    list-style: none;
+}
+#text-overlay{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    top: 40%;
+    left: 5%;
+}
+img.align-left {
+    float: left;
+    margin-right: 0.625rem;}
+    img.align-right {
+    float: right;
+    margin-left: 0.625rem;}
+    img.medium {
+        width: 5.625rem; 
+        height: 5.625rem;}
+    #app{
+        background-color:  rgb(225, 23, 120);
+        border-radius: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: white;
+    }
+   
+    .mb-3{
+        display: flex !important;
+    }
+    .mb-3 button{
+        margin :auto 0.5rem;
+        background-color:  rgb(225, 23, 120) !important;
+        border-color: transparent;
+    }
+   .btn-light{
+    float: left !important;
+   }
+ .navbar-btn{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#login-btn{
+    color: white;
+    background-color: rgb(201, 26, 84) ;
+    border-color: transparent;
+}
+#signup-btn{
+    color: rgb(201, 26, 84) ;
+    background-color:white ;
+    border-color:  rgb(201, 26, 84);
+}
+footer{
+    background-color: white;
+    color: grey !important;
+    margin: 7rem 0rem;
+}
+footer a{
+ color: grey;
+ text-decoration: none;
+}
+footer a:hover{
+    color:  rgb(201, 26, 84);
+}
+
+
+.cities-image{
+    border-radius: 1rem;
+    width:170%;
+    height: 340%;
+ 
+
+}
+.cities{
+    padding: 5rem !important;
+    margin: 0rem 2.5rem;
+}
+.cities-button{
+    margin-top: -3rem;
+    margin-left: 1rem;
+    position: relative;
+}
+
+#text-overlay{
+    position: absolute;
+    z-index: 11;
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.card-img{
+    z-index: 10!important;
+    position: relative;
+    height: 30rem;
+    width: 100%;
+}

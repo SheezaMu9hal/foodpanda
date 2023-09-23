@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Food & Grocery</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: white !important;">
+    <div class="container-fluid" id="nav" style="padding-left: 5rem !important; padding-right: 7rem !important;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <img src="./food panda logo.png" alt=".." class="navbar-brand" width="180rem" height="50rem" >
+        <div class="d-flex ms-auto" style="border-color:  rgb(201, 26, 84) ;border-radius: 0.5rem;">
+          <a href="./log in.html"><button class="btn btn-outline-success " type="submit" id="login-btn">Log in</button></a>
+         <a href="./sign up.html"><button class="btn btn-outline-success navbar-btn" type="submit" id="signup-btn">Sign up</button></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    En
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="shop-logo" style="margin-left: 1rem; margin-right: auto;"><i class="fa-thin fa-basket-shopping fa-xl" style="color: #e2128c;"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+    <div  class="p-3 mb-2 bg-secondary" id="main">
+        <div class="container px-4 text-center" id="main-content" >
+            <div class="row gx-5" style="align-items: space-between !important;">
+              <div class="col">
+               <div class="p-3"><h1  style="padding-top:7rem;">It's the food and groceries you love, delivered</h1>
+                <fieldset style="background-color: white !important; padding: 0.7rem; padding-bottom: 0rem; border-radius: 0.5rem; " >
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="addressInput" placeholder="Enter your address">
+                            <button type="button" class="btn btn-primary" onclick="navigate()">Find&nbspFood</button>
+                        </div>
+                    </form>
+                </fieldset>
+               </div>
+              </div>
+              <div class="col">
+                <div class="p-3"><img src="./refresh-hero-home-pk.webp" alt="Nature" id="main-image"></div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="card text-bg-dark">
+      <img src="./home-vendor-pk.webp" class="card-img" alt="..." >
+      <div class="card-img-overlay" id="text-overlay" >
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+   
+
+      
+    <div class="container text-center cities-main" style="justify-content: space-evenly;">
+      <div class="row row-cols-8 row-cols-lg-4 g-2 g-lg-3 cities" >
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Islamabad.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button" >Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Karachi.webp" alt="..." class="cities-image" >
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Lahore.webp" alt="..."  class="cities-image" >
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Faisalabad.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Rawalpindi.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Abottabad.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Bahawalpur.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-DeraGhaziKhan.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Gujranwala.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Gujrat.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Hyderabad.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Jhelum.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Kamoke.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities" >
+            <img src="./city images/city-tile-Larkana.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Mangla.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Mardan.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Multan.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Murree.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Okara.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-PanoAqil.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Peshawar.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Quetta.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-RahimYarKhan.webp" alt="..." class="cities-image" style="height:11.5rem !important;">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Sadiqabad.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Sahiwal.webp" alt="..." class="cities-image" style="height:11.5rem !important;">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Sargodha.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-Sheikhupura.jpg.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/city-tile-WahhCannt.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Sukkur.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 cities">
+            <img src="./city images/Sialkot.webp" alt="..." class="cities-image">
+            <button type="button" class="btn btn-light cities-button">Light</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <div class="container px-4 text-center" >
+        <div class="row gx-5" id="app">
+          <div class="col">
+           <div class="p-3"><p><img src="./pkhomepageqrcode.png"
+            alt="..." class="align-left medium" />
+            It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit your mood, and make
+             the first bite last. Go ahead, download us.</p>
+            </div>
+          </div> <div class="col">
+            <div class="p-3"><img src="./home-foodpanda-apps.webp" alt="" height="200rem" width="auto"></div>
+          </div>
+
+        </div>
+      
+      </div>
+
+
+    
+            <div class="col-md-8 offset-md-2">
+                <h1>Order food and groceries online from the best restaurants and shops on foodpanda</h1>
+                <p class="lh-base">Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your 
+                    office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a
+                     long and detailed list of the best restaurants and shops near you to help make your every day easier.</p>
+                     <h1>What's new?</h1>
+                     <p class="lh-base">
+                        <ul id="whatsnew-list">
+                            <li><span style="color: rgb(210, 14, 80);">✓</span>Wide variety of restaurants and shops, an abundance of cuisines & products.</li>
+                            <li><span style="color: rgb(210, 14, 80);">✓</span>High quality delivery service.</li>
+                            <li><span style="color: rgb(210, 14, 80);">✓</span>Live chat feature to give App users instant help when they need it.</li>
+                            <li><span style="color: rgb(210, 14, 80);">✓</span>NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.</li>
+                        </ul>
+                     </p>
+                     <hr>
+                     <h3 class="bold">Frequently Asked Questions</h3>
+                     <h4>How can I get foodpanda delivery?</h4>
+                     <p class="lh-base">To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, 
+                        browse through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the 
+                        basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!</p>
+                     <h4>Which takeout restaurants open now near me?</h4>
+                     <p class="lh-base">You can check which takeout restaurants are open now near you by simply typing your address in the location
+                         bar on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area</p>
+                     <h4>Does foodpanda deliver 24 hours?</h4>
+                     <p class="lh-base">Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night
+                         delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also order
+                          groceries 24 hours a day via pandamart.</p>
+                     <h4>Can you pay cash for foodpanda?</h4>
+                     <p class="lh-base">Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+                     <h4>How can I pay foodpanda online?</h4>
+                     <p class="lh-base">You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+                     <h4>How can I get foodpanda delivery?</h4>
+                     <p class="lh-base"></p>
+                     <h4>Can I order foodpanda for someone else?</h4>
+                     <p class="lh-base">Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, 
+                        just update the name and delivery address of the person you're ordering for. Please keep in mind that if the delivery 
+                        details are not correct and the order cannot be delivered, we won't be able to process a refund.</p>
+                        <h4>How much does foodpanda charge for delivery?</h4>
+                        <p class="lh-base">Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the 
+                            restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can
+                             filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+                        <h4>What restaurants let you order online?</h4>
+                        <p class="lh-base">There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example,
+                             <span style="color: rgb(210, 14, 80);">KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees</span> and many-many more! In order to check all the 
+                             restaurants near you that deliver, just type in your address and discover all the available places.</p>
+                        <h4>Does foodpanda have minimum order?</h4>
+                        <p class="lh-base">Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you 
+                            order from and is indicated during your ordering process.</p>
+                        <h4>What is the difference between delivery and Pick-Up?</h4>
+                        <p class="lh-base">If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to
+                             your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for 
+                             extra savings – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.</p>
+                        <h5>Order food and groceries online with foodpanda now and enjoy a great dining experience!</h5>
+            </div>
+
+            <div class="card text-bg-dark">
+              <img src="./home-corporate-pk.webp" class="card-img" alt="..." >
+              <div class="card-img-overlay" id="text-overlay" >
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+<div class="col-md-8 offset-md-2">
+  <footer>
+    <hr>
+    <div class="container px-4">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3">
+            <p>&copy; 2023 foodpanda</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3 "><a href="#">Careers </a><a href="#">Suggest a restaurant </a><a href="#">Corporate Customer</a>
+            <a href="#">Cashback Terms and Conditions </a><a href="#">All cuisines </a><a href="#">foodpanda Magazine </a>
+            <a href="#">Partner with us </a><a href="#">pandago - Request a rider </a><a href="#">foodpanda Vouchers&Promo</a></div>
+        </div>
+        <div class="col">
+          <div class="p-3"><a href="#">Careers </a><a href="#">Suggest a restaurant </a><a href="#">Corporate Customer</a>
+            <a href="#">Cashback Terms and Conditions </a><a href="#">All cuisines </a><a href="#">foodpanda Magazine </a>
+            <a href="#">Partner with us </a><a href="#">pandago - Request a rider </a><a href="#">foodpanda Vouchers&Promo</a></div>
+        </div>
+        <div class="col">
+          <div class="p-3"><a href="#">Careers </a><a href="#">Suggest a restaurant </a><a href="#">Corporate Customer</a>
+            <a href="#">Cashback Terms and Conditions </a><a href="#">All cuisines </a><a href="#">foodpanda Magazine </a>
+            <a href="#">Partner with us </a><a href="#">pandago - Request a rider </a><a href="#">foodpanda Vouchers&Promo</a></div>
+        </div>
+      </div>
+    </div>
+    </div>
+<hr>
+
+
+   </footer>
+</div>
+         
+  
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#facebook{
+    background-color: rgb(33, 111, 227) !important;
+}
+#google{
+    background-color: white !important;
+    color: black;
+    border-color: grey;
+}
+#apple{
+    background-color: black;
+    border-color: transparent;
+}
+#log-in{
+    background-color: rgb(201, 26, 84);
+    border-color: transparent;
+}
+#sign-up{
+    background-color: white;
+    border-color: rgb(201, 26, 84);
+    color: rgb(201, 26, 84);
+}
+.dropdown{
+    background-color: white !important;
+}
+#btn-con{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 1rem;
+    padding: 1.7rem 0.7rem;
+    width: 20rem;
+}
+.text{
+    text-align: left;
+}
+.cities{
+    margin: 1rem;
+}
+
